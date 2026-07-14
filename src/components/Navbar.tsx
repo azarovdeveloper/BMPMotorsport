@@ -1,5 +1,6 @@
 import { useTranslation } from '../i18n';
 import React, { useEffect, useState } from 'react';
+import { publicAsset } from '../assets';
 
 const Navbar = () => {
     const { t, currentLang, setLanguage } = useTranslation();
@@ -22,7 +23,7 @@ const Navbar = () => {
         <nav className={`navbar navbar-expand-lg fixed-top ${scrolled ? 'scrolled' : ''}`}>
             <div className="container">
                 <a className="navbar-brand" href="#home">
-                    <img src="/img/logo_main.png" className="navbar-logo" alt="BPM" loading="lazy" />
+                    <img src={publicAsset('/img/logo_main.png')} className="navbar-logo" alt="BPM" loading="lazy" />
                     <span>Motorsport</span>
                 </a>
                 <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">

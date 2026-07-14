@@ -1,5 +1,6 @@
 import { useTranslation } from '../i18n';
 import React from 'react';
+import { publicAsset } from '../assets';
 
 const Footer = () => {
     const { t } = useTranslation();
@@ -9,7 +10,7 @@ const Footer = () => {
                 <div className="row align-items-center">
                     <div className="col-md-4 mb-4 mb-md-0 text-center text-md-start">
                         <div className="footer-brand">
-                            <img src="/img/logo_footer_white.png" className="footer-logo" alt="BPM" loading="lazy" />
+                            <img src={publicAsset('/img/logo_footer_white.png')} className="footer-logo" alt="BPM" loading="lazy" />
                             <span className="footer-brand-text">Motorsport</span>
                         </div>
                     </div>

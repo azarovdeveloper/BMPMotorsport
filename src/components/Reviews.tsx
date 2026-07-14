@@ -2,6 +2,7 @@ import { useTranslation } from '../i18n';
 import React, { useEffect, useRef } from 'react';
 import Swiper from 'swiper';
 import { Pagination, Autoplay } from 'swiper/modules';
+import { publicAsset } from '../assets';
 
 const Reviews = () => {
     const { t } = useTranslation();
@@ -54,7 +55,7 @@ const Reviews = () => {
                                 </div>
                                 <p className="review-text text-muted fst-italic lh-lg" >{t('review.1.text', 'Skvělý servis! Mechanici rychle odhalili závadu na motoru a oprava byla provedena profesionálně a za dobrou cenu. Rozhodně doporučuji.')}</p>
                                 <div className="reviewer-info d-flex align-items-center mt-4">
-                                    <img src="/img/milangula.png" className="reviewer-img me-3" alt="Reviewer" loading="lazy" />
+                                    <img src={publicAsset('/img/milangula.png')} className="reviewer-img me-3" alt="Reviewer" loading="lazy" />
                                     <h6 className="mb-0 fw-bold" >{t('review.1.name', 'Jan Novák')}</h6>
                                 </div>
                             </div>
@@ -67,7 +68,7 @@ const Reviews = () => {
                                 </div>
                                 <p className="review-text text-muted fst-italic lh-lg" >{t('review.2.text', 'Pravidelně sem jezdím na výměnu oleje a přezutí pneumatik. Vždy perfektní a rychlá domluva. Transparentní jednání bez skrytých poplatků.')}</p>
                                 <div className="reviewer-info d-flex align-items-center mt-4">
-                                    <img src="/img/jansefzig.png" className="reviewer-img me-3" alt="Reviewer" loading="lazy" />
+                                    <img src={publicAsset('/img/jansefzig.png')} className="reviewer-img me-3" alt="Reviewer" loading="lazy" />
                                     <h6 className="mb-0 fw-bold" >{t('review.2.name', 'Petr Svoboda')}</h6>
                                 </div>
                             </div>
@@ -80,7 +81,7 @@ const Reviews = () => {
                                 </div>
                                 <p className="review-text text-muted fst-italic lh-lg" >{t('review.3.text', 'Měl jsem problém s brzdami a podvozkem na mé Škodovce. Kluci v BPM Motorsport vše opravili na jedničku. Auto teď jezdí jako nové.')}</p>
                                 <div className="reviewer-info d-flex align-items-center mt-4">
-                                    <img src="/img/romantrnka.png" className="reviewer-img me-3" alt="Reviewer" loading="lazy" />
+                                    <img src={publicAsset('/img/romantrnka.png')} className="reviewer-img me-3" alt="Reviewer" loading="lazy" />
                                     <h6 className="mb-0 fw-bold" >{t('review.3.name', 'Martin Dvořák')}</h6>
                                 </div>
                             </div>
@@ -93,7 +94,7 @@ const Reviews = () => {
                                 </div>
                                 <p className="review-text text-muted fst-italic lh-lg" >{t('review.4.text', 'Velmi profesionální přístup. Moderní vybavení dílny a opravdu rozumí tomu, co dělají. Dostal jsem jasnou nabídku a dodrželi termín.')}</p>
                                 <div className="reviewer-info d-flex align-items-center mt-4">
-                                    <img src="/img/haribomeda.png" className="reviewer-img me-3" alt="Reviewer" loading="lazy" />
+                                    <img src={publicAsset('/img/haribomeda.png')} className="reviewer-img me-3" alt="Reviewer" loading="lazy" />
                                     <h6 className="mb-0 fw-bold" >{t('review.4.name', 'Tomáš Kučera')}</h6>
                                 </div>
                             </div>
@@ -106,7 +107,7 @@ const Reviews = () => {
                                 </div>
                                 <p className="review-text text-muted fst-italic lh-lg" >{t('review.5.text', 'Výborná komunikace. Oprava chladicího systému proběhla bez problémů. Líbí se mi, že mi vysvětlili, co přesně bylo potřeba vyměnit.')}</p>
                                 <div className="reviewer-info d-flex align-items-center mt-4">
-                                    <img src="/img/sarka.png" className="reviewer-img me-3" alt="Reviewer" loading="lazy" />
+                                    <img src={publicAsset('/img/sarka.png')} className="reviewer-img me-3" alt="Reviewer" loading="lazy" />
                                     <h6 className="mb-0 fw-bold" >{t('review.5.name', 'Lukáš Veselý')}</h6>
                                 </div>
                             </div>
@@ -119,7 +120,7 @@ const Reviews = () => {
                                 </div>
                                 <p className="review-text text-muted fst-italic lh-lg" >{t('review.6.text', 'Nejlepší autoservis v okolí. Výměna rozvodů a servisní prohlídka proběhly naprosto hladce. Velmi oceňuji čisté a moderní prostředí.')}</p>
                                 <div className="reviewer-info d-flex align-items-center mt-4">
-                                    <img src="/img/jaromir.png" className="reviewer-img me-3" alt="Reviewer" loading="lazy" />
+                                    <img src={publicAsset('/img/jaromir.png')} className="reviewer-img me-3" alt="Reviewer" loading="lazy" />
                                     <h6 className="mb-0 fw-bold" >{t('review.6.name', 'Michal Černý')}</h6>
                                 </div>
                             </div>

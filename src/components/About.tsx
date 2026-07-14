@@ -1,5 +1,6 @@
 import { useTranslation } from '../i18n';
 import React from 'react';
+import { publicAsset } from '../assets';
 
 const About = () => {
     const { t } = useTranslation();
@@ -9,7 +10,7 @@ const About = () => {
                 <div className="row align-items-center g-5">
                     <div className="col-lg-6" data-aos="fade-right">
                         <div className="about-img-wrapper">
-                            <img src="/img/SRrle.jpg" alt="BPM Motorsport Workshop" className="img-fluid" loading="lazy" />
+                            <img src={publicAsset('/img/SRrle.jpg')} alt="BPM Motorsport Workshop" className="img-fluid" loading="lazy" />
                         </div>
                     </div>
                     <div className="col-lg-6" data-aos="fade-left">
