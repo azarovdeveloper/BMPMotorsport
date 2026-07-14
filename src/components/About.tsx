@@ -9,7 +9,7 @@ const About = () => {
                 <div className="row align-items-center g-5">
                     <div className="col-lg-6" data-aos="fade-right">
                         <div className="about-img-wrapper">
-                            <img src="https://images.unsplash.com/photo-1632823471565-3ceef4d4cb96?auto=format&fit=crop&q=80&w=800" alt="BPM Motorsport Workshop" className="img-fluid" loading="lazy" />
+                            <img src="/img/SRrle.jpg" alt="BPM Motorsport Workshop" className="img-fluid" loading="lazy" />
                         </div>
                     </div>
                     <div className="col-lg-6" data-aos="fade-left">

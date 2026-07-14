@@ -21,7 +21,10 @@ const Navbar = () => {
     return (
         <nav className={`navbar navbar-expand-lg fixed-top ${scrolled ? 'scrolled' : ''}`}>
             <div className="container">
-                <a className="navbar-brand" href="#home"><div className="bpm-badge">BPM</div> <span>Motorsport</span></a>
+                <a className="navbar-brand" href="#home">
+                    <img src="/img/logo_main.png" className="navbar-logo" alt="BPM" loading="lazy" />
+                    <span>Motorsport</span>
+                </a>
                 <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                     <i className="bi bi-list fs-1"></i>
                 </button>

@@ -8,9 +8,11 @@ export default defineConfig(({command}) => {
 
   return {
     base: isBuild ? '/BMPMotorsport/' : '/',
+    publicDir: 'public',
     build: {
       outDir: 'docs',
       emptyOutDir: true,
+      copyPublicDir: true,
     },
     plugins: [react(), tailwindcss()],
     resolve: {

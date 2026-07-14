@@ -8,7 +8,10 @@ const Footer = () => {
             <div className="container text-center text-md-start">
                 <div className="row align-items-center">
                     <div className="col-md-4 mb-4 mb-md-0 text-center text-md-start">
-                        <h5 className="mb-0">BPM <span className="text-primary">Motorsport</span></h5>
+                        <div className="footer-brand">
+                            <img src="/img/logo_footer_white.png" className="footer-logo" alt="BPM" loading="lazy" />
+                            <span className="footer-brand-text">Motorsport</span>
+                        </div>
                     </div>
                     <div className="col-md-4 mb-4 mb-md-0 text-center">
                         <p className="mb-0" >{t('footer.copyright', '&copy; 2026 BPM Motorsport. Všechna práva vyhrazena.')}</p>

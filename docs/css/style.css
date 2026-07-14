@@ -89,22 +89,19 @@ h1, h2, h3, h4, h5, h6 {
   gap: 8px;
 }
 
-.bpm-badge {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 40px;
-  height: 40px;
-  background-color: var(--primary);
+.navbar-logo {
+  height: 45px;
+  object-fit: cover;
   border-radius: 0.5rem;
-  color: var(--white);
-  font-size: 1.25rem;
-  font-style: italic;
-  letter-spacing: 0;
+  flex-shrink: 0;
 }
 
 .navbar-brand span {
   color: var(--secondary) !important;
+  font-style: italic;
+  display: flex;
+  align-items: center;
+  line-height: 1;
 }
 
 .nav-link {
@@ -405,6 +402,32 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 /* Reviews */
+.reviews-slider .swiper-wrapper {
+  align-items: stretch;
+}
+
+.reviews-slider .swiper-slide {
+  height: auto;
+  display: flex;
+}
+
+.reviews-slider .review-card {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.review-text {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 3;
+  overflow: hidden;
+}
+
+.reviewer-info {
+  margin-top: auto !important;
+}
+
 .reviewer-img {
   width: 65px;
   height: 65px;
@@ -549,13 +572,26 @@ footer {
   border-radius: 1rem;
 }
 
-footer h5 {
-  color: var(--white);
+.footer-brand {
+  display: inline-flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.footer-logo {
+  width: 120px;
+  height: auto;
+  display: block;
+}
+
+.footer-brand-text {
+  color: var(--primary);
   margin-bottom: 0;
   font-size: 1.25rem;
   font-weight: 900;
   font-style: italic;
   text-transform: uppercase;
+  line-height: 1;
 }
 
 footer p {
@@ -593,6 +629,9 @@ footer a:hover {
   }
   .navbar-brand span {
     color: var(--primary) !important;
+  }
+  .navbar-logo {
+    height: 42px;
   }
   .navbar-toggler {
     border: none;

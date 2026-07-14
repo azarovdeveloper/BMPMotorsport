@@ -52,9 +52,9 @@ const Reviews = () => {
                                 <div className="stars mb-3">
                                     <i className="bi bi-star-fill"></i><i className="bi bi-star-fill"></i><i className="bi bi-star-fill"></i><i className="bi bi-star-fill"></i><i className="bi bi-star-fill"></i>
                                 </div>
-                                <p className="text-muted fst-italic lh-lg" >{t('review.1.text', 'Skvělý servis! Mechanici rychle odhalili závadu na motoru a oprava byla provedena profesionálně a za dobrou cenu. Rozhodně doporučuji.')}</p>
-                                <div className="d-flex align-items-center mt-4">
-                                    <img src="https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?auto=format&fit=crop&w=150&h=150" className="reviewer-img me-3" alt="Reviewer" loading="lazy" />
+                                <p className="review-text text-muted fst-italic lh-lg" >{t('review.1.text', 'Skvělý servis! Mechanici rychle odhalili závadu na motoru a oprava byla provedena profesionálně a za dobrou cenu. Rozhodně doporučuji.')}</p>
+                                <div className="reviewer-info d-flex align-items-center mt-4">
+                                    <img src="/img/milangula.png" className="reviewer-img me-3" alt="Reviewer" loading="lazy" />
                                     <h6 className="mb-0 fw-bold" >{t('review.1.name', 'Jan Novák')}</h6>
                                 </div>
                             </div>
@@ -65,9 +65,9 @@ const Reviews = () => {
                                 <div className="stars mb-3">
                                     <i className="bi bi-star-fill"></i><i className="bi bi-star-fill"></i><i className="bi bi-star-fill"></i><i className="bi bi-star-fill"></i><i className="bi bi-star-fill"></i>
                                 </div>
-                                <p className="text-muted fst-italic lh-lg" >{t('review.2.text', 'Pravidelně sem jezdím na výměnu oleje a přezutí pneumatik. Vždy perfektní a rychlá domluva. Transparentní jednání bez skrytých poplatků.')}</p>
-                                <div className="d-flex align-items-center mt-4">
-                                    <img src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?auto=format&fit=crop&w=150&h=150" className="reviewer-img me-3" alt="Reviewer" loading="lazy" />
+                                <p className="review-text text-muted fst-italic lh-lg" >{t('review.2.text', 'Pravidelně sem jezdím na výměnu oleje a přezutí pneumatik. Vždy perfektní a rychlá domluva. Transparentní jednání bez skrytých poplatků.')}</p>
+                                <div className="reviewer-info d-flex align-items-center mt-4">
+                                    <img src="/img/jansefzig.png" className="reviewer-img me-3" alt="Reviewer" loading="lazy" />
                                     <h6 className="mb-0 fw-bold" >{t('review.2.name', 'Petr Svoboda')}</h6>
                                 </div>
                             </div>
@@ -78,9 +78,9 @@ const Reviews = () => {
                                 <div className="stars mb-3">
                                     <i className="bi bi-star-fill"></i><i className="bi bi-star-fill"></i><i className="bi bi-star-fill"></i><i className="bi bi-star-fill"></i><i className="bi bi-star-fill"></i>
                                 </div>
-                                <p className="text-muted fst-italic lh-lg" >{t('review.3.text', 'Měl jsem problém s brzdami a podvozkem na mé Škodovce. Kluci v BPM Motorsport vše opravili na jedničku. Auto teď jezdí jako nové.')}</p>
-                                <div className="d-flex align-items-center mt-4">
-                                    <img src="https://images.unsplash.com/photo-1527980965255-d3b416303d12?auto=format&fit=crop&w=150&h=150" className="reviewer-img me-3" alt="Reviewer" loading="lazy" />
+                                <p className="review-text text-muted fst-italic lh-lg" >{t('review.3.text', 'Měl jsem problém s brzdami a podvozkem na mé Škodovce. Kluci v BPM Motorsport vše opravili na jedničku. Auto teď jezdí jako nové.')}</p>
+                                <div className="reviewer-info d-flex align-items-center mt-4">
+                                    <img src="/img/romantrnka.png" className="reviewer-img me-3" alt="Reviewer" loading="lazy" />
                                     <h6 className="mb-0 fw-bold" >{t('review.3.name', 'Martin Dvořák')}</h6>
                                 </div>
                             </div>
@@ -91,9 +91,9 @@ const Reviews = () => {
                                 <div className="stars mb-3">
                                     <i className="bi bi-star-fill"></i><i className="bi bi-star-fill"></i><i className="bi bi-star-fill"></i><i className="bi bi-star-fill"></i><i className="bi bi-star-fill"></i>
                                 </div>
-                                <p className="text-muted fst-italic lh-lg" >{t('review.4.text', 'Velmi profesionální přístup. Moderní vybavení dílny a opravdu rozumí tomu, co dělají. Dostal jsem jasnou nabídku a dodrželi termín.')}</p>
-                                <div className="d-flex align-items-center mt-4">
-                                    <img src="https://images.unsplash.com/photo-1438761681033-6461ffad8d80?auto=format&fit=crop&w=150&h=150" className="reviewer-img me-3" alt="Reviewer" loading="lazy" />
+                                <p className="review-text text-muted fst-italic lh-lg" >{t('review.4.text', 'Velmi profesionální přístup. Moderní vybavení dílny a opravdu rozumí tomu, co dělají. Dostal jsem jasnou nabídku a dodrželi termín.')}</p>
+                                <div className="reviewer-info d-flex align-items-center mt-4">
+                                    <img src="/img/haribomeda.png" className="reviewer-img me-3" alt="Reviewer" loading="lazy" />
                                     <h6 className="mb-0 fw-bold" >{t('review.4.name', 'Tomáš Kučera')}</h6>
                                 </div>
                             </div>
@@ -104,9 +104,9 @@ const Reviews = () => {
                                 <div className="stars mb-3">
                                     <i className="bi bi-star-fill"></i><i className="bi bi-star-fill"></i><i className="bi bi-star-fill"></i><i className="bi bi-star-fill"></i><i className="bi bi-star-fill"></i>
                                 </div>
-                                <p className="text-muted fst-italic lh-lg" >{t('review.5.text', 'Výborná komunikace. Oprava chladicího systému proběhla bez problémů. Líbí se mi, že mi vysvětlili, co přesně bylo potřeba vyměnit.')}</p>
-                                <div className="d-flex align-items-center mt-4">
-                                    <img src="https://images.unsplash.com/photo-1633332755192-727a05c4013d?auto=format&fit=crop&w=150&h=150" className="reviewer-img me-3" alt="Reviewer" loading="lazy" />
+                                <p className="review-text text-muted fst-italic lh-lg" >{t('review.5.text', 'Výborná komunikace. Oprava chladicího systému proběhla bez problémů. Líbí se mi, že mi vysvětlili, co přesně bylo potřeba vyměnit.')}</p>
+                                <div className="reviewer-info d-flex align-items-center mt-4">
+                                    <img src="/img/sarka.png" className="reviewer-img me-3" alt="Reviewer" loading="lazy" />
                                     <h6 className="mb-0 fw-bold" >{t('review.5.name', 'Lukáš Veselý')}</h6>
                                 </div>
                             </div>
@@ -117,9 +117,9 @@ const Reviews = () => {
                                 <div className="stars mb-3">
                                     <i className="bi bi-star-fill"></i><i className="bi bi-star-fill"></i><i className="bi bi-star-fill"></i><i className="bi bi-star-fill"></i><i className="bi bi-star-fill"></i>
                                 </div>
-                                <p className="text-muted fst-italic lh-lg" >{t('review.6.text', 'Nejlepší autoservis v okolí. Výměna rozvodů a servisní prohlídka proběhly naprosto hladce. Velmi oceňuji čisté a moderní prostředí.')}</p>
-                                <div className="d-flex align-items-center mt-4">
-                                    <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=150&h=150" className="reviewer-img me-3" alt="Reviewer" loading="lazy" />
+                                <p className="review-text text-muted fst-italic lh-lg" >{t('review.6.text', 'Nejlepší autoservis v okolí. Výměna rozvodů a servisní prohlídka proběhly naprosto hladce. Velmi oceňuji čisté a moderní prostředí.')}</p>
+                                <div className="reviewer-info d-flex align-items-center mt-4">
+                                    <img src="/img/jaromir.png" className="reviewer-img me-3" alt="Reviewer" loading="lazy" />
                                     <h6 className="mb-0 fw-bold" >{t('review.6.name', 'Michal Černý')}</h6>
                                 </div>
                             </div>

@@ -53,9 +53,9 @@ const Contact = () => {
                     </div>
                     <div className="col-lg-8" data-aos="fade-left">
                         <div className="overflow-hidden h-100 w-100 position-relative" style={{ minHeight: '350px', background: '#e9ecef', borderRadius: '1.5rem' }}>
-                            <iframe 
-                                src={`https://maps.google.com/maps?q=${encodeURIComponent('Kraluv Dvur, Czech Republic')}&t=&z=13&ie=UTF8&iwloc=&output=embed`}
-                                width="100%" 
+                            <iframe
+                                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1395.2872370920275!2d14.014446950712788!3d49.93911723156944!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x470ba98e1bf5f3c7%3A0x46fe921c5534ec28!2sBPM%20Motorsport%20AUTOSERVIS!5e0!3m2!1sen!2scz!4v1784025510633!5m2!1sen!2scz"
+                                width="100%"
                                 height="100%" 
                                 style={{ border: 0, minHeight: '350px', position: 'absolute', top: 0, left: 0 }} 
                                 allowFullScreen={false} 
@@ -63,7 +63,6 @@ const Contact = () => {
                                 referrerPolicy="no-referrer-when-downgrade"
                                 title={t('contact.address', 'Adresa Provozovny')}
                             ></iframe>
-                            {/* Overlay for address text if needed, or just let the map be */}
                         </div>
                     </div>
                 </div>
